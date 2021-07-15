@@ -1,1 +1,47 @@
 /* Стилизация кнопки */
+.Button{
+background: #4263EB;
+border-radius: 8px;
+Width:189px;
+Height:48px;
+Radius:8px;
+}
+.Button__text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Button__text_disabled{
+    opacity: 0.5;
+}
+.Button_background_blue{
+    background: blue;
+}
+.Button_background_purple{
+    background: purple;
+}
+.Button_background_white{
+    background: white;
+}
+.Button__text_color_black{
+    color: black;
+}
+.Button_background_blue:hover{
+    background: rgb(109, 109, 228);
+    }
+.Button_background_purple:hover{
+    background: rgb(214, 111, 214);
+    } 
+.Button_background_white:hover{
+    background: rgb(247, 243, 243);
+    } 
+.Buttons__Button{
+    margin: 1px;
+}
+
+
+
