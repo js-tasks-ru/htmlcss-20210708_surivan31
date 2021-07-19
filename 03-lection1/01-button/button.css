@@ -1,8 +1,8 @@
 /* Стилизация кнопки */
 .button{
     border-radius: 8px;
-    Width:189px;
-    Height:48px;
+    width:189px;
+    height:48px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -19,7 +19,7 @@
 {
     background-color: var(--primary-hover)
 }
-.button_primary:disabled
+.button:disabled
 {
     opacity: 0.5;
     cursor: default;
@@ -35,7 +35,7 @@
     background-color: var(--secondary-hover);
 }
 
-.button_secondary:disabled 
+.button:disabled 
 {
     opacity: 0.5;
     cursor: default;
@@ -51,7 +51,7 @@
 {
     border: 1px solid var(--black);
 }
-.button_alternate:disabled 
+.button:disabled 
 {
     opacity: 0.5;
     cursor: default;
