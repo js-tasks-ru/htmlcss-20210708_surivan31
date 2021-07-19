@@ -11,12 +11,17 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --blue-hover: rgb(109, 109, 228);
+    --purple-hover: rgb(109, 109, 228);;
 
     --error: var(--red);
     --success: var(--blue);
 
     --primary: var(--blue);
+    --primary-hover: var(--blue-hover);
     --secondary: var(--purple);
+    --secondary-hover:rgb(214, 111, 214);
+
 }
 
 * {
