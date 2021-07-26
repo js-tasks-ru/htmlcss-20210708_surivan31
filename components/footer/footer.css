@@ -1,10 +1,10 @@
 .footer{
-    padding: 96px 0 77px;
     background:var(--white);
     border-top: 1px solid var(--grey-1);
     text-align: center;
     color :var(--black);
     max-height: 383px;
+    
 }
 .footer__title{
     font-family: Inter;
@@ -20,4 +20,8 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
+    
 }
+
+   
+   
